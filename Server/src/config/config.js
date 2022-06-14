@@ -4,19 +4,19 @@ console.log('db port is here: ', process.env.DB_PORT);
 module.exports = {
   development: {
     database: 'schoolManagement',
-    username: 'postgres',
-    password: 'mwas',
+    username: '',
+    password: '',
     host: '127.0.0.1',
-    port: '5430',
+    port: '',
     dialect: 'postgres',
   },
 
   test: {
     database: 'schoolManagement',
-    username: 'postgres',
-    password: 'mwas',
+    username: '',
+    password: '',
     host: '127.0.0.1',
-    port: '5430',
+    port: '',
     dialect: 'postgres',
   },
 
